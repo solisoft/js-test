@@ -1,10 +1,10 @@
 const { translate2d, scale2d, composeTransformation, memoizeTransform } = require('./transform');
 
-test('move to the right by 2px', () => {
+test('translate2d', () => {
   expect(true).toBe(false);
 });
 
-test('scale * 2', () => {
+test('scale2d', () => {
   expect(true).toBe(false);
 });
 
